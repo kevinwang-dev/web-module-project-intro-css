@@ -379,7 +379,7 @@ template {
 }
 
 *{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     max-width: 100%;
     font-size: 62.5%;
     box-sizing: border-box;
@@ -432,11 +432,16 @@ main {
     margin: 0 auto;
 }
 
+.intro {
+    vertical-align: center;
+    display: inline;
+}
+
 .intro p {
 font-size: 2rem;
 text-align: center;
-
 }
+
 .header-image{
     border-radius: 400%;
     vertical-align: center;
@@ -444,10 +449,29 @@ text-align: center;
     margin-left: 100px;
 }
 
-.ft-img{
-   
+section p {
+    margin: 10px;
+    
 }
+
+.fire {
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.truck{
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 
 footer .top-button {
     background: #F9E7DC;
+}
+
+footer img {
+    width: 100%;
 }
